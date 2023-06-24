@@ -1,0 +1,60 @@
+
+----------------------header--------------------------
+2022-02-14 10:51:44,073 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Conversion failed when converting the varchar value '0.18%' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '0.18%' to data type int.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.WaiguanMain_DAL.WaiguanSave(WaiguanModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\WaiguanMain_DAL.cs:行号 17
+   在 IMMSOQAMaintain_Api.BII.WaiguanMain_BLL.WaiguanSave(WaiguanModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\WaiguanMain_BLL.cs:行号 35
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.WaiguanMainController.WaiguanSave(WaiguanModel waiguanData) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\WaiguanMainController.cs:行号 20
+ClientConnectionId:793005de-a1ca-436c-953d-299fb3e455d9
+Error Number:245,State:1,Class:16
+
+----------------------header--------------------------
+2022-02-14 11:00:04,166 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Conversion failed when converting the varchar value '0.18%' to data type int.
+System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value '0.18%' to data type int.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.WaiguanMain_DAL.WaiguanSave(WaiguanModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\WaiguanMain_DAL.cs:行号 17
+   在 IMMSOQAMaintain_Api.BII.WaiguanMain_BLL.WaiguanSave(WaiguanModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\WaiguanMain_BLL.cs:行号 35
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.WaiguanMainController.WaiguanSave(WaiguanModel waiguanData) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\WaiguanMainController.cs:行号 20
+ClientConnectionId:d3fa655f-f570-4cf0-9536-bb42a3bf46e7
+Error Number:245,State:1,Class:16
+
+----------------------header--------------------------
+2022-02-14 14:14:17,956 [11] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - String 引用没有设置为 String 的实例。
+参数名: s
+System.ArgumentNullException: String 引用没有设置为 String 的实例。
+参数名: s
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.WaiguanMain_BLL.WaiguanUp(WaiguanModelUp model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\WaiguanMain_BLL.cs:行号 73
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.WaiguanMainController.WaiguanUp(WaiguanModelUp WaiguanUpData) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\WaiguanMainController.cs:行号 98
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-02-14 14:14:46,539 [11] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - String 引用没有设置为 String 的实例。
+参数名: s
+System.ArgumentNullException: String 引用没有设置为 String 的实例。
+参数名: s
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.WaiguanMain_BLL.WaiguanUp(WaiguanModelUp model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\WaiguanMain_BLL.cs:行号 73
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.WaiguanMainController.WaiguanUp(WaiguanModelUp WaiguanUpData) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\WaiguanMainController.cs:行号 98

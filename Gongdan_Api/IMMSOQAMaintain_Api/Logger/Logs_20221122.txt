@@ -1,0 +1,101 @@
+
+----------------------header--------------------------
+2022-11-22 21:28:03,199 [5] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名或所提供值的数目与表定义不匹配。
+System.Data.SqlClient.SqlException (0x80131904): 列名或所提供值的数目与表定义不匹配。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.YujianMain_DAL.infoSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\YujianMain_DAL.cs:行号 42
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+ClientConnectionId:d2d30df2-2caa-4a21-918d-ca3c9bd8890e
+Error Number:213,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-22 21:28:30,575 [5] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名或所提供值的数目与表定义不匹配。
+System.Data.SqlClient.SqlException (0x80131904): 列名或所提供值的数目与表定义不匹配。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.YujianMain_DAL.infoSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\YujianMain_DAL.cs:行号 42
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+ClientConnectionId:d2d30df2-2caa-4a21-918d-ca3c9bd8890e
+Error Number:213,State:1,Class:16
+
+----------------------header--------------------------
+2022-11-22 21:29:51,258 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名或所提供值的数目与表定义不匹配。
+System.Data.SqlClient.SqlException (0x80131904): 列名或所提供值的数目与表定义不匹配。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.XingNengMain_DAL.infoSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\XingNengMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.XingNengMain_BLL.LuoXNSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\XingNengMain_BLL.cs:行号 60
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.XingNengController.LuoXNSave(MainModel mainModel) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\XingNengController.cs:行号 21
+ClientConnectionId:c1c52637-0c2b-441c-91e6-aa892b157987
+Error Number:213,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-22 21:30:05,253 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名或所提供值的数目与表定义不匹配。
+System.Data.SqlClient.SqlException (0x80131904): 列名或所提供值的数目与表定义不匹配。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.XingNengMain_DAL.infoSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\XingNengMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.XingNengMain_BLL.LuoXNSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\XingNengMain_BLL.cs:行号 60
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.XingNengController.LuoXNSave(MainModel mainModel) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\XingNengController.cs:行号 21
+ClientConnectionId:c1c52637-0c2b-441c-91e6-aa892b157987
+Error Number:213,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-22 21:30:13,664 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名或所提供值的数目与表定义不匹配。
+System.Data.SqlClient.SqlException (0x80131904): 列名或所提供值的数目与表定义不匹配。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.XingNengMain_DAL.infoSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\XingNengMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.XingNengMain_BLL.LuoXNSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\XingNengMain_BLL.cs:行号 60
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.XingNengController.LuoXNSave(MainModel mainModel) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\XingNengController.cs:行号 21
+ClientConnectionId:c1c52637-0c2b-441c-91e6-aa892b157987
+Error Number:213,State:1,Class:16

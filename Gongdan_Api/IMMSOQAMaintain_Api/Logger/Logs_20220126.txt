@@ -1,0 +1,177 @@
+
+----------------------header--------------------------
+2022-01-26 09:17:24,959 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 从索引 0 处开始，初始化字符串的格式不符合规范。
+System.ArgumentException: 从索引 0 处开始，初始化字符串的格式不符合规范。
+   在 System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 27
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataSearch(Int32 indexBegin, Int32 indexEnd, String sqlApp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 28
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 36
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 46
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-01-26 09:17:55,564 [8] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 从索引 0 处开始，初始化字符串的格式不符合规范。
+System.ArgumentException: 从索引 0 处开始，初始化字符串的格式不符合规范。
+   在 System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 27
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataSearch(Int32 indexBegin, Int32 indexEnd, String sqlApp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 28
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 36
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 46
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-01-26 09:18:01,672 [8] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 从索引 0 处开始，初始化字符串的格式不符合规范。
+System.ArgumentException: 从索引 0 处开始，初始化字符串的格式不符合规范。
+   在 System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 27
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataSearch(Int32 indexBegin, Int32 indexEnd, String sqlApp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 28
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 36
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 46
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-01-26 09:18:24,155 [8] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 从索引 0 处开始，初始化字符串的格式不符合规范。
+System.ArgumentException: 从索引 0 处开始，初始化字符串的格式不符合规范。
+   在 System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 27
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataSearch(Int32 indexBegin, Int32 indexEnd, String sqlApp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 28
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 36
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 46
+
+----------------------header--------------------------
+2022-01-26 09:24:00,771 [12] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 从索引 0 处开始，初始化字符串的格式不符合规范。
+System.ArgumentException: 从索引 0 处开始，初始化字符串的格式不符合规范。
+   在 System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 27
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataSearch(Int32 indexBegin, Int32 indexEnd, String sqlApp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 28
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 36
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 46
+
+----------------------header--------------------------
+2022-01-26 09:24:50,592 [11] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 从索引 0 处开始，初始化字符串的格式不符合规范。
+System.ArgumentException: 从索引 0 处开始，初始化字符串的格式不符合规范。
+   在 System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   在 System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 27
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataSearch(Int32 indexBegin, Int32 indexEnd, String sqlApp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 28
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 36
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataSearch(Int32 pageNum, Int32 pagesize, String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 46
+
+----------------------header--------------------------
+2022-01-26 10:17:33,796 [19] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataSave(RejDataModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 18
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataSave(RejDataModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 23
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataSave(RejDataModel RejData) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 22
+ClientConnectionId:686dd83f-b3ec-4db7-a898-5d5bbfa9f0e9
+Error Number:8152,State:14,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-01-26 10:18:46,423 [15] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - String or binary data would be truncated.
+The statement has been terminated.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataSave(RejDataModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 18
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataSave(RejDataModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 23
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataSave(RejDataModel RejData) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 22
+ClientConnectionId:686dd83f-b3ec-4db7-a898-5d5bbfa9f0e9
+Error Number:8152,State:14,Class:16
+
+----------------------header--------------------------
+2022-01-26 14:44:03,780 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Incorrect syntax near 'rejReason'.
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'rejReason'.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, IDbTransaction transaction, String sql, Action`2 paramReader, Object obj, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1383
+   在 Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 510
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Execute(String sqlSmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 20
+   在 IMMSOQAMaintain_Api.DAL.RejDataMain_DAL.RejDataUp(RejDataUpModel rejDataUp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataMain_DAL.cs:行号 50
+   在 IMMSOQAMaintain_Api.BII.RejDataMain_BLL.RejDataUp(RejDataUpModel model) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataMain_BLL.cs:行号 60
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.RejDataMainController.RejDataUp(RejDataUpModel RejDataUp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\RejDataMainController.cs:行号 105
+ClientConnectionId:17052b51-c10a-4809-b545-229eed5ad01d
+Error Number:102,State:1,Class:15

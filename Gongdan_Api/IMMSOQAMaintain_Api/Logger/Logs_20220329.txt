@@ -1,0 +1,30 @@
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-03-29 19:09:10,812 [8] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 30
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 44
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 52
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+2022-03-29 19:09:10,814 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 30
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.GetQuanjInfo(Int32 indexBegin, Int32 indexEnd, String potSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 32
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.GetQuanjInfo(String potNum, String date, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 41
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.GetQuanjInfo(String potNum, String date, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 45

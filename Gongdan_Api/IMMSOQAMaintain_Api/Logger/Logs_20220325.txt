@@ -1,0 +1,62 @@
+
+----------------------header--------------------------
+2022-03-25 13:25:21,228 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '预检' and snNum = 'a' and status = 'Y'' at line 2
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '预检' and snNum = 'a' and status = 'Y'' at line 2
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteNonQueryAsync>d__78.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteNonQuery()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Execute(String sqlSmd) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 22
+   在 IMMSOQAMaintain_Api.DAL.YujianMain_DAL.infoSaveAgain(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\DAL\YujianMain_DAL.cs:行号 34
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 29
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+
+----------------------header--------------------------
+2022-03-25 13:38:29,866 [17] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GunySave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 32
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GunySave(MainModel mainModel) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 22
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-03-25 13:39:06,579 [14] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GunySave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 32
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GunySave(MainModel mainModel) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 22
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-03-25 13:42:14,614 [20] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GunySave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 32
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GunySave(MainModel mainModel) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 22

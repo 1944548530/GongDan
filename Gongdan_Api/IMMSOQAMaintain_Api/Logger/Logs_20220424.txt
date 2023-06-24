@@ -1,0 +1,20 @@
+
+----------------------header--------------------------
+2022-04-24 20:48:11,150 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 43
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-24 20:48:24,583 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 43
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22

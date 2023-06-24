@@ -1,0 +1,8 @@
+
+----------------------header--------------------------
+2022-12-07 18:41:00,876 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列“opAmount”不属于表 。
+System.ArgumentException: 列“opAmount”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 IMMSOQAMaintain_Api.BII.XingNengMain_BLL.FujianXNSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\XingNengMain_BLL.cs:行号 111
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.XingNengController.FujianXNSave(MainModel mainModel) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\XingNengController.cs:行号 48

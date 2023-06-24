@@ -1,0 +1,90 @@
+
+----------------------header--------------------------
+2022-03-27 10:31:41,697 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Unknown column 'modualr' in 'where clause'
+MySqlConnector.MySqlException (0x80004005): Unknown column 'modualr' in 'where clause'
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteNonQueryAsync>d__78.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteNonQuery()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Execute(String sqlSmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 22
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.QuanjDel(String date, String item, String potNum) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 45
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.QuanjDel(String date, String item, String potNum) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 55
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.QuanjDel(String date, String item, String potNum) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 84
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-03-27 10:33:12,690 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Unknown column 'modualr' in 'where clause'
+MySqlConnector.MySqlException (0x80004005): Unknown column 'modualr' in 'where clause'
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteNonQueryAsync>d__78.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteNonQuery()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Execute(String sqlSmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 22
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.QuanjDel(String date, String item, String potNum) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 45
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.QuanjDel(String date, String item, String potNum) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 55
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.QuanjDel(String date, String item, String potNum) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 84
+
+----------------------header--------------------------
+2022-03-27 11:09:48,137 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[日期], b.modular[工序], b.prodName[品名], b.item[成品料号], b.size[?°' at line 1
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[日期], b.modular[工序], b.prodName[品名], b.item[成品料号], b.size[?°' at line 1
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteReaderAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.SqlDataTable(String sqlSmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 35
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.ExportExcel(String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 53
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.ExportExcel(String date, String potNum) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 67
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.ExportExcel(String date, String potNum) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 107

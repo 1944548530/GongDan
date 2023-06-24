@@ -1,0 +1,10 @@
+
+----------------------header--------------------------
+2022-02-10 10:55:00,499 [11] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Invalid column name 'data'.
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'data'.
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.sqlTable(String sqlStr) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 50
+   在 IMMSOQAMaintain_Api.DAL.ReworkRateMain_DAL.ReworkRateExport(String sqlApp) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\ReworkRateMain_DAL.cs:行号 78
+   在 IMMSOQAMaintain_Api.BII.ReworkRateMain_BLL.ReworkRateExport(String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\ReworkRateMain_BLL.cs:行号 81
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.ReworkRateMainController.ReworkRateExport(String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\ReworkRateMainController.cs:行号 121
+ClientConnectionId:45266a6f-a417-4c23-92b4-82fbef973953
+Error Number:207,State:1,Class:16

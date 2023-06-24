@@ -1,0 +1,96 @@
+
+----------------------header--------------------------
+2022-04-16 10:06:20,891 [8] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.QingxiMain_BLL.QingxiSave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\QingxiMain_BLL.cs:行号 33
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QingxiMainController.QingxiSave(MainModel mainData) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QingxiMainController.cs:行号 45
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-16 10:06:30,311 [8] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.QingxiMain_BLL.QingxiSave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\QingxiMain_BLL.cs:行号 33
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QingxiMainController.QingxiSave(MainModel mainData) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QingxiMainController.cs:行号 45
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-16 10:06:57,849 [16] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.QingxiMain_BLL.QingxiSave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\QingxiMain_BLL.cs:行号 33
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QingxiMainController.QingxiSave(MainModel mainData) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QingxiMainController.cs:行号 45
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-16 10:07:41,973 [16] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.QingxiMain_BLL.QingxiSave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\QingxiMain_BLL.cs:行号 33
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QingxiMainController.QingxiSave(MainModel mainData) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QingxiMainController.cs:行号 45
+
+----------------------header--------------------------
+2022-04-16 10:44:52,827 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列“空白”不属于表 。
+System.ArgumentException: 列“空白”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 158
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-16 10:45:17,396 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列“空白”不属于表 。
+System.ArgumentException: 列“空白”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 158
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-16 10:45:33,218 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列“空白”不属于表 。
+System.ArgumentException: 列“空白”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 158
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+
+----------------------header--------------------------
+2022-04-16 10:48:27,100 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列“其他”不属于表 。
+System.ArgumentException: 列“其他”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.set_Item(String columnName, Object value)
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 162
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+
+----------------------header--------------------------
+2022-04-16 15:42:45,307 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列“leftNum”不属于表 。
+System.ArgumentException: 列“leftNum”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 46
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-16 15:43:34,550 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列“leftNum”不属于表 。
+System.ArgumentException: 列“leftNum”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 46
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 D:\图表生成\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22

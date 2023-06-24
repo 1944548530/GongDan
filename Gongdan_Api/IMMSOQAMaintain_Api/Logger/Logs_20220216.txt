@@ -1,0 +1,108 @@
+
+----------------------header--------------------------
+2022-02-16 15:21:49,096 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 1 (Ngdate=202202 - Int32)
+System.Data.DataException: Error parsing column 1 (Ngdate=202202 - Int32) ---> System.InvalidCastException: 无法将类型为“System.Int32”的对象强制转换为类型“System.String”。
+   在 Deserializeb897c5a1-df5c-4122-bd25-00fa075523f2(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserializeb897c5a1-df5c-4122-bd25-00fa075523f2(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.RejDataChart_DAL.GetChartInfo(String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataChart_DAL.cs:行号 16
+   在 IMMSOQAMaintain_Api.BII.RejDataChart_BLL.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataChart_BLL.cs:行号 25
+   在 IMMSOQAMaintain_Api.Controllers.Chart.RejDataChartController.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\RejDataChartController.cs:行号 20
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-02-16 15:22:28,448 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 1 (Ngdate=202202 - Int32)
+System.Data.DataException: Error parsing column 1 (Ngdate=202202 - Int32) ---> System.InvalidCastException: 无法将类型为“System.Int32”的对象强制转换为类型“System.String”。
+   在 Deserialize6b0addd6-917f-4413-bfc7-137d1a8e7dea(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserialize6b0addd6-917f-4413-bfc7-137d1a8e7dea(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.RejDataChart_DAL.GetChartInfo(String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataChart_DAL.cs:行号 16
+   在 IMMSOQAMaintain_Api.BII.RejDataChart_BLL.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataChart_BLL.cs:行号 25
+   在 IMMSOQAMaintain_Api.Controllers.Chart.RejDataChartController.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\RejDataChartController.cs:行号 20
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-02-16 15:26:00,088 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 1 (Ngdate=202202 - Int32)
+System.Data.DataException: Error parsing column 1 (Ngdate=202202 - Int32) ---> System.InvalidCastException: 无法将类型为“System.Int32”的对象强制转换为类型“System.String”。
+   在 Deserializea5ba1b62-7269-4244-b5bc-dd1c976e1826(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserializea5ba1b62-7269-4244-b5bc-dd1c976e1826(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.RejDataChart_DAL.GetChartInfo(String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataChart_DAL.cs:行号 16
+   在 IMMSOQAMaintain_Api.BII.RejDataChart_BLL.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataChart_BLL.cs:行号 25
+   在 IMMSOQAMaintain_Api.Controllers.Chart.RejDataChartController.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\RejDataChartController.cs:行号 20
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-02-16 15:27:30,900 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 1 (Ngdate=202202 - Int32)
+System.Data.DataException: Error parsing column 1 (Ngdate=202202 - Int32) ---> System.InvalidCastException: 无法将类型为“System.Int32”的对象强制转换为类型“System.String”。
+   在 Deserialize8b569654-e57e-4a7a-959f-a1c30938496a(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserialize8b569654-e57e-4a7a-959f-a1c30938496a(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.RejDataChart_DAL.GetChartInfo(String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataChart_DAL.cs:行号 16
+   在 IMMSOQAMaintain_Api.BII.RejDataChart_BLL.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataChart_BLL.cs:行号 25
+   在 IMMSOQAMaintain_Api.Controllers.Chart.RejDataChartController.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\RejDataChartController.cs:行号 20
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-02-16 15:28:01,220 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 1 (Ngdate=202202 - Int32)
+System.Data.DataException: Error parsing column 1 (Ngdate=202202 - Int32) ---> System.InvalidCastException: 无法将类型为“System.Int32”的对象强制转换为类型“System.String”。
+   在 Deserialized2654579-5d95-4c11-905a-89c042fe7640(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserialized2654579-5d95-4c11-905a-89c042fe7640(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.RejDataChart_DAL.GetChartInfo(String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataChart_DAL.cs:行号 16
+   在 IMMSOQAMaintain_Api.BII.RejDataChart_BLL.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataChart_BLL.cs:行号 25
+   在 IMMSOQAMaintain_Api.Controllers.Chart.RejDataChartController.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\RejDataChartController.cs:行号 20
+
+----------------------header--------------------------
+2022-02-16 15:35:42,303 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 7 (MajorMinor=0     - String)
+System.Data.DataException: Error parsing column 7 (MajorMinor=0     - String) ---> System.InvalidCastException: 指定的转换无效。
+   在 Deserialize7676ffc0-b44c-44e4-8e08-53e6286eadf9(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserialize7676ffc0-b44c-44e4-8e08-53e6286eadf9(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.RejDataChart_DAL.GetChartInfo(String dateBegin, String dateEnd) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\RejDataChart_DAL.cs:行号 16
+   在 IMMSOQAMaintain_Api.BII.RejDataChart_BLL.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\RejDataChart_BLL.cs:行号 25
+   在 IMMSOQAMaintain_Api.Controllers.Chart.RejDataChartController.DppmByPicChart(String dateBegin, String dateEnd, String timeType) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\RejDataChartController.cs:行号 20

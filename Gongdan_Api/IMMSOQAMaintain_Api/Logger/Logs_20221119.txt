@@ -1,0 +1,275 @@
+
+----------------------header--------------------------
+2022-11-19 09:36:59,156 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteReaderAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteReader()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 46
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 66
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 09:37:03,820 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteReaderAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteReader()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 46
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 66
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 09:37:04,701 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteReaderAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteReader()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 46
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 66
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 09:37:06,120 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteReaderAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteReader()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 46
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 66
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 09:37:12,192 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteReaderAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteReader()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 46
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 66
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 09:37:22,972 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int, b.opAmount) + convert(int, b.erroNum)) inputAmount, b.erroDetail, b.erroPer' at line 2
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteReaderAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteReader()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 46
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 66
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, String dateEnd, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 09:37:55,624 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 30
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.GetQuanjInfo(Int32 indexBegin, Int32 indexEnd, String potSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 42
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.GetQuanjInfo(String potNum, String date, String dateEnd, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 58
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.GetQuanjInfo(String potNum, String date, String dateEnd, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 70
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 09:37:58,895 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 30
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.GetQuanjInfo(Int32 indexBegin, Int32 indexEnd, String potSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 42
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.GetQuanjInfo(String potNum, String date, String dateEnd, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 58
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.GetQuanjInfo(String potNum, String date, String dateEnd, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 70
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+
+----------------------header--------------------------
+2022-11-19 11:04:21,244 [5] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+System.Data.SqlClient.SqlException (0x80131904): 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.sqlTable(String sqlStr) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 50
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.ExportExcel(String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 75
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.ExportExcel(String date, String dateEnd, String potNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 108
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.ExportExcel(String date, String dateEnd, String potNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 135
+ClientConnectionId:58ea8290-6154-43d9-a2ff-5709aafd979c
+Error Number:207,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 11:04:34,417 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+System.Data.SqlClient.SqlException (0x80131904): 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.sqlTable(String sqlStr) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 50
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.ExportExcel(String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 75
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.ExportExcel(String date, String dateEnd, String potNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 108
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.ExportExcel(String date, String dateEnd, String potNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 135
+ClientConnectionId:968512cd-c2ea-41f2-a0c1-2f73f4726a0a
+Error Number:207,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-11-19 11:06:35,998 [5] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+System.Data.SqlClient.SqlException (0x80131904): 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.sqlTable(String sqlStr) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 50
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.ExportExcel(String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 75
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.ExportExcel(String date, String dateEnd, String potNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 108
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.ExportExcel(String date, String dateEnd, String potNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 135
+ClientConnectionId:968512cd-c2ea-41f2-a0c1-2f73f4726a0a
+Error Number:207,State:1,Class:16

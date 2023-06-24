@@ -1,0 +1,215 @@
+
+----------------------header--------------------------
+2022-04-18 16:10:53,952 [8] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 9 (inputAmount=0 - Int32)
+System.Data.DataException: Error parsing column 9 (inputAmount=0 - Int32) ---> System.InvalidCastException: 指定的转换无效。
+   在 Deserializef1b1092b-d30f-4709-9fb6-8eb4c71b46fa(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserializef1b1092b-d30f-4709-9fb6-8eb4c71b46fa(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.GetQuanjInfo(Int32 indexBegin, Int32 indexEnd, String potSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 42
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.GetQuanjInfo(String potNum, String date, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 57
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.GetQuanjInfo(String potNum, String date, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 70
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 16:21:34,210 [14] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 9 (inputAmount=0 - Int32)
+System.Data.DataException: Error parsing column 9 (inputAmount=0 - Int32) ---> System.InvalidCastException: 指定的转换无效。
+   在 Deserialize963006fb-f930-4401-b390-db3b18dcf10d(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserialize963006fb-f930-4401-b390-db3b18dcf10d(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.GetQuanjInfo(Int32 indexBegin, Int32 indexEnd, String potSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 42
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.GetQuanjInfo(String potNum, String date, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 57
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.GetQuanjInfo(String potNum, String date, Int32 pageNum, Int32 pageSize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 70
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 16:22:07,666 [16] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - Error parsing column 13 (inputAmount=818 - Int32)
+System.Data.DataException: Error parsing column 13 (inputAmount=818 - Int32) ---> System.InvalidCastException: 指定的转换无效。
+   在 Deserialize8b982fcf-5073-4a37-8a6d-51b75254a10d(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 1695
+   在 Deserialize8b982fcf-5073-4a37-8a6d-51b75254a10d(IDataReader )
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 608
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 52
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 66
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+
+----------------------header--------------------------
+2022-04-18 16:39:36,092 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+System.Data.SqlClient.SqlException (0x80131904): 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.sqlTable(String sqlStr) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 50
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 85
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+ClientConnectionId:778b021d-93df-4805-af61-daf43b7c547e
+Error Number:207,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 16:40:19,731 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+System.Data.SqlClient.SqlException (0x80131904): 列名 'SIGNED' 无效。
+类型 opAmount 不是已定义的系统类型。
+列名 'SIGNED' 无效。
+类型 erroNum 不是已定义的系统类型。
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.sqlTable(String sqlStr) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 50
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 85
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+ClientConnectionId:778b021d-93df-4805-af61-daf43b7c547e
+Error Number:207,State:1,Class:16
+
+----------------------header--------------------------
+2022-04-18 16:47:17,692 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 无法绑定由多个部分组成的标识符 "b.opAmount"。
+无法绑定由多个部分组成的标识符 "b.erroNum"。
+System.Data.SqlClient.SqlException (0x80131904): 无法绑定由多个部分组成的标识符 "b.opAmount"。
+无法绑定由多个部分组成的标识符 "b.erroNum"。
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.sqlTable(String sqlStr) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 50
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 85
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+ClientConnectionId:616dbe77-520f-44f5-9475-0c9079717591
+Error Number:4104,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 16:47:48,067 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 无法绑定由多个部分组成的标识符 "b.opAmount"。
+无法绑定由多个部分组成的标识符 "b.erroNum"。
+System.Data.SqlClient.SqlException (0x80131904): 无法绑定由多个部分组成的标识符 "b.opAmount"。
+无法绑定由多个部分组成的标识符 "b.erroNum"。
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.sqlTable(String sqlStr) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 50
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 85
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+ClientConnectionId:ba8529c5-4e01-401f-9a8c-7a49b2cb9d25
+Error Number:4104,State:1,Class:16
+
+----------------------header--------------------------
+2022-04-18 16:49:03,047 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 222
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 16:50:05,958 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 222
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 16:54:13,252 [8] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.ExportExcel(String modular, String snNumSqlApp, String dateSqlApp) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 222
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 168
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.ExportExcel(String modular, String date, String snNum) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 136
+
+----------------------header--------------------------
+2022-04-18 19:17:02,526 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 46
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 19:17:10,041 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 46
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 19:18:46,841 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 46
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 19:23:13,309 [21] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.OtherInfoUp(OtherUpModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 104
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.OtherInfoUp(OtherUpModel data) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 113
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 19:23:13,804 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.YujianSave(MainModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 46
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.YujianSave(MainModel mainData) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 22
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-18 19:23:17,942 [19] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.OtherInfoUp(OtherUpModel model) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 104
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.OtherInfoUp(OtherUpModel data) 位置 E:\外接项目\工单修改\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 113

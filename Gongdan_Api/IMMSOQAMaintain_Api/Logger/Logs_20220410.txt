@@ -1,0 +1,253 @@
+
+----------------------header--------------------------
+2022-04-10 09:13:09,757 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.QuanjSave(MainModel model) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 29
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.QuanjSave(MainModel mainModel) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 23
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 09:14:12,718 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.QuanjSave(MainModel model) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 29
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.QuanjSave(MainModel mainModel) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 23
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 09:14:44,029 [6] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.QuanjSave(MainModel model) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 29
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.QuanjSave(MainModel mainModel) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 23
+
+----------------------header--------------------------
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 10:54:41,232 [11] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - “)”附近有语法错误。
+System.Data.SqlClient.SqlException (0x80131904): “)”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 581
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 44
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+ClientConnectionId:f9fa2295-8c25-4f3a-9489-25410aa9276a
+Error Number:102,State:1,Class:15
+2022-04-10 10:54:41,232 [12] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - “)”附近有语法错误。
+System.Data.SqlClient.SqlException (0x80131904): “)”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 581
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 44
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+ClientConnectionId:f9fa2295-8c25-4f3a-9489-25410aa9276a
+Error Number:102,State:1,Class:15
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 10:55:15,762 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - “)”附近有语法错误。
+System.Data.SqlClient.SqlException (0x80131904): “)”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 581
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 44
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+ClientConnectionId:1f44168b-230f-4b10-9eb8-56485f36a561
+Error Number:102,State:1,Class:15
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 10:55:15,775 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - “)”附近有语法错误。
+System.Data.SqlClient.SqlException (0x80131904): “)”附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 581
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 44
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+ClientConnectionId:36007066-9b94-4760-8cda-b87641ab560b
+Error Number:102,State:1,Class:15
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 10:56:48,583 [7] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名 '滚圆' 无效。
+System.Data.SqlClient.SqlException (0x80131904): 列名 '滚圆' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 581
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 44
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+ClientConnectionId:36007066-9b94-4760-8cda-b87641ab560b
+Error Number:207,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 10:57:19,253 [18] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名 '滚圆' 无效。
+System.Data.SqlClient.SqlException (0x80131904): 列名 '滚圆' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 581
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 44
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+ClientConnectionId:1f44168b-230f-4b10-9eb8-56485f36a561
+Error Number:207,State:1,Class:16
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 10:58:08,515 [18] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 列名 '滚圆' 无效。
+System.Data.SqlClient.SqlException (0x80131904): 列名 '滚圆' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 Dapper.SqlMapper.<QueryInternal>d__13`1.MoveNext() 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 581
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) 位置 C:\Users\sam\Desktop\dapper\Dapper\SqlMapper.cs:行号 538
+   在 IMMSOQAMaintain_Api.common.SqlHelper`1.Query(String sqlCmd) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\common\SqlHelper.cs:行号 31
+   在 IMMSOQAMaintain_Api.DAL.GunyMain_DAL.GetOtherInfo(String modular, Int32 indexBegin, Int32 indexEnd, String snSqlApp, String dateSqlApp) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\DAL\GunyMain_DAL.cs:行号 44
+   在 IMMSOQAMaintain_Api.BII.GunyMain_BLL.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\GunyMain_BLL.cs:行号 62
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.GunyMainController.GetOtherInfo(String modular, String snNum, String date, Int32 pageNum, Int32 pagesize) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\GunyMainController.cs:行号 44
+ClientConnectionId:4e68c6b1-af2c-4258-be0b-8e767245e8a9
+Error Number:207,State:1,Class:16
+
+----------------------header--------------------------
+2022-04-10 11:20:12,004 [58] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.FujianSave(MainModel model) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 118
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.FujianSave(MainModel mainData) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 69
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-04-10 11:21:18,235 [58] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 输入字符串的格式不正确。
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Single.Parse(String s)
+   在 IMMSOQAMaintain_Api.BII.YujianMain_BLL.FujianSave(MainModel model) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\BII\YujianMain_BLL.cs:行号 118
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.YujianMainController.FujianSave(MainModel mainData) 位置 E:\外接项目\Gongdan_Api\IMMSOQAMaintain_Api\Controllers\Maintain\YujianMainController.cs:行号 69

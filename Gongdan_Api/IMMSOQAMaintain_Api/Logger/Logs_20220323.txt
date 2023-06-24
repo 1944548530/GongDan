@@ -1,0 +1,28 @@
+
+----------------------header--------------------------
+2022-03-23 14:42:22,343 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from(select * from snMain where modular = '半成品全检' and status = 'Y'  ' at line 4
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from(select * from snMain where modular = '半成品全检' and status = 'Y'  ' at line 4
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1.ConfiguredValueTaskAwaiter.GetResult()
+   在 MySqlConnector.Core.ResultSet.<ReadResultSetHeaderAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken)
+   在 MySqlConnector.MySqlDataReader.<CreateAsync>d__106.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   在 MySqlConnector.Core.CommandExecutor.<ExecuteReaderAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.<ExecuteReaderAsync>d__84.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 MySqlConnector.MySqlCommand.ExecuteReader()
+   在 IMMSOQAMaintain_Api.common.MysqlHelper`1.Query(String sqlCmd) 位置 D:\图表生成\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\common\MysqlHelper.cs:行号 46
+   在 IMMSOQAMaintain_Api.DAL.QuanjMain_DAL.GetQuanjInfo(Int32 indexBegin, Int32 indexEnd, String potSqlApp, String dateSqlApp) 位置 D:\图表生成\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\DAL\QuanjMain_DAL.cs:行号 31
+   在 IMMSOQAMaintain_Api.BII.QuanjMain_BLL.GetQuanjInfo(String potNum, String date, Int32 pageNum, Int32 pageSize) 位置 D:\图表生成\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\QuanjMain_BLL.cs:行号 37
+   在 IMMSOQAMaintain_Api.Controllers.Maintain.QuanjMainController.GetQuanjInfo(String potNum, String date, Int32 pageNum, Int32 pageSize) 位置 D:\图表生成\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Maintain\QuanjMainController.cs:行号 45

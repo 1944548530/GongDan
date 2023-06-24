@@ -1,0 +1,34 @@
+
+----------------------header--------------------------
+2022-03-02 08:56:41,698 [9] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 IMMSOQAMaintain_Api.BII.DuidieChart_BLL.EventCountsChart(String dateBegin, String dateEnd, String shift, String timeType, String segment) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\DuidieChart_BLL.cs:行号 93
+   在 IMMSOQAMaintain_Api.Controllers.Chart.DuidieChartController.EventCountsChart(String dateBegin, String dateEnd, String shift, String timeType, String segment) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\DuidieChartController.cs:行号 19
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-03-02 08:57:09,538 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 IMMSOQAMaintain_Api.BII.DuidieChart_BLL.EventCountsChart(String dateBegin, String dateEnd, String shift, String timeType, String segment) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\DuidieChart_BLL.cs:行号 93
+   在 IMMSOQAMaintain_Api.Controllers.Chart.DuidieChartController.EventCountsChart(String dateBegin, String dateEnd, String shift, String timeType, String segment) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\DuidieChartController.cs:行号 19
+
+----------------------footer--------------------------
+
+----------------------header--------------------------
+2022-03-02 08:57:44,448 [10] ERROR IMMSOQAMaintain_Api.common.LoggerHelper - 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 IMMSOQAMaintain_Api.BII.DuidieChart_BLL.EventCountsChart(String dateBegin, String dateEnd, String shift, String timeType, String segment) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\BII\DuidieChart_BLL.cs:行号 93
+   在 IMMSOQAMaintain_Api.Controllers.Chart.DuidieChartController.EventCountsChart(String dateBegin, String dateEnd, String shift, String timeType, String segment) 位置 D:\项目\IMMSOQAMaintain_Api\IMMSOQAMaintain_Api\Controllers\Chart\DuidieChartController.cs:行号 19
